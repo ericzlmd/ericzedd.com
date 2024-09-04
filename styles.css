@@ -40,3 +40,18 @@
  p, h1, h2, h3, h4, h5, h6 {
    overflow-wrap: break-word;
  }
+
+.container {
+   position: relative;
+   height: 200px;
+   height: 100vh;
+}
+
+.center {
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+}
